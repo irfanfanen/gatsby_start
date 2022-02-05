@@ -21,6 +21,8 @@ const BlogPage = ({ data }) => {
   )
 }
 
+console.log(BlogPage)
+
 export const query = graphql`
   query {
     allMdx(sort: {fields: frontmatter___date, order: DESC}) {
